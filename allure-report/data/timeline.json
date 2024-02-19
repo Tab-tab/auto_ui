@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-3DIA2N1",
+    "children" : [ {
+      "name" : "30360-MainThread",
+      "children" : [ {
+        "name" : "test_001_login[sigeradmin-Sigerdata@2019]",
+        "uid" : "3bb3ae865f90cac2",
+        "parentUid" : "84fb7803087159c91a1365e7aa4939df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637403996052,
+          "stop" : 1637403997345,
+          "duration" : 1293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sigerdata@2019'", "'sigeradmin'" ]
+      }, {
+        "name" : "test_002_add_company[sigeradmin-Sigerdata@2019-2021_test-自动化企业_test-auto_test-auto_test企业地址-auto_user-15012341234-123@123.com]",
+        "uid" : "c89ea287de17982d",
+        "parentUid" : "84fb7803087159c91a1365e7aa4939df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637404001297,
+          "stop" : 1637404014344,
+          "duration" : 13047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'auto_test企业地址'", "'2021_test'", "'自动化企业_test'", "'auto_user'", "'123@123.com'", "'Sigerdata@2019'", "'auto_test'", "'15012341234'", "'sigeradmin'" ]
+      } ],
+      "uid" : "84fb7803087159c91a1365e7aa4939df"
+    } ],
+    "uid" : "46cea440b65e5e0e6204c2456f338ea4"
+  } ]
+}

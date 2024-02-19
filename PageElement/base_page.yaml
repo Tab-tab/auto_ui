@@ -1,0 +1,21 @@
+#url: 'http://192.168.219.131/#/login'
+#url: 'http://172.8.8.61/#/'
+
+用户账号框: 'xpath==//*[@id="loginName"]'
+用户密码框: 'xpath==//*[@id="loginPassword"]'
+登录按钮: 'xpath==//*[@id="submit"]'
+
+当前登录用户: 'xpath==//*[@id="app"]/div/div/div[2]/div[1]/div/div/span[3]'
+
+模块目录: 'xpath==//*[@id="app"]/div/div/div[2]/div[1]/div/div/div[4]/div/div[1]/a'
+
+# 第一级菜单（各模块系统地址）
+系统基础配置: 'xpath==//*[@id="app"]/div/div/div[2]/div[1]/div/div/div[4]/div/div[2]/ul/li[15]'
+
+# 第二级菜单
+企业信息管理: 'xpath==//*[@id="app"]/div/div/div[1]/div[1]/div/ul/li[1]/div/span'
+
+# 第三级菜单
+企业信息列表: 'xpath==//*[@id="app"]/div/div/div[1]/div[1]/div/ul/li[1]/ul/li/span'
+
+# 菜单下功能点

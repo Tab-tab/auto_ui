@@ -1,0 +1,50 @@
+#url: 'http://192.168.219.131/#/login'
+#url: 'http://172.8.8.61/#/'
+
+用户账号框: 'xpath==//*[@id="loginName"]'
+用户密码框: 'xpath==//*[@id="loginPassword"]'
+登录按钮: 'xpath==//*[@id="submit"]'
+
+# 任务数据页
+展开任务数据新建下拉框: 'xpath==//*[@id="planManageContainer"]/div[3]/div/div/div[2]/div/div/div/div[1]/div[1]/span/button[1]/span'
+# 任务数据新建按钮: 'xpath==/html/body/div[2]/div/div/ul/li[1]'
+任务数据新建按钮: 'xpath==//*[@data-reactid=".3.1.0.$create/=1$create"]'
+
+输入任务数据名称: 'xpath==//*[@id="name"]'
+
+展开所属机型下拉框: 'xpath==/html/body/div[3]/div/div[2]/div/div[1]/div[2]/div/form/div/div/div[2]/div[2]/div/div/div/div/div[1]'
+#选中所属机型: 'xpath==/html/body/div[4]/div/div/div/ul/li'
+选中所属机型: 'xpath==//*[@title="飞机项目"]'
+
+展开文档模板下拉框: 'xpath==/html/body/div[3]/div/div[2]/div/div[1]/div[2]/div/form/div/div/div[3]/div[2]/div/div/div/div/div[1]'
+选中文档模板: 'xpath==/html/body/div[5]/div/div/div/ul/li'
+
+展开研制阶段下拉框: 'xpath==/html/body/div[3]/div/div[2]/div/div[1]/div[2]/div/form/div/div/div[4]/div[2]/div/div/div/div/div[1]'
+选中研制阶段: 'xpath==/html/body/div[6]/div/div/div/ul/li[1]'
+
+展开积分文件类型下拉框: 'xpath==//*[@id="scoreTypeId"]/div[1]/button/span'
+选中积分文件类型: 'xpath==/html/body/div[7]/div/div[2]/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/div/div/span/div[2]/table/tbody/tr[1]/td[1]'
+积分文件类型对话框确定: 'xpath==/html/body/div[7]/div/div[2]/div/div[1]/div[3]/button[1]/span'
+
+展开申请编号下拉框: 'xpath==/html/body/div[3]/div/div[2]/div/div[1]/div[2]/form[2]/div/div[1]/div[2]/div/div/div/div/div'
+选中申请编号类型: 'xpath==//*[@title="申请新编号"]'
+
+展开编码规则下拉框: 'xpath==/html/body/div[3]/div/div[2]/div/div[1]/div[2]/form[2]/div/div[2]/div[2]/div/div/div/div/div'
+选中编码规则类型: 'xpath==//*[@title="技术单编号方法"]'
+
+任务数据新建对话框确定: 'xpath==/html/body/div[3]/div/div[2]/div/div[1]/div[3]/button[1]/span'
+
+# //*[@data-reactid=".m.1.$dialog.0.3.$submit.1:$/=10"]
+# 清空排序筛选按钮
+任务数据列表数据验证: 'xpath==//*[@id="planManageContainer"]/div[3]/div/div/div[2]/div/div/div/div[1]/div[2]/span/span'
+
+#{},需要参数化处理str.format()
+任务数据列表数据选中: 'xpath==tbody[@class="ant-table-tbody"]/tr[{}]/td[1]/span/label/span/input'
+
+展开密级控制下拉框: 'xpath==//*[@id="planManageContainer"]/div[3]/div/div/div[2]/div/div/div/div[1]/div[1]/span/button[4]/span'
+点击设置数据密级按钮: 'xpath==//*[@data-reactid=".3.1.0.$setSecret/=1$setSecret"]'
+
+展开密级下拉框: 'xpath==//*[@data-reactid=".6.1.$dialog.0.2.0.$securitydegreeid.$wrapper/=1$wrapper.0.0:$/=10.$selection.0.0"]'
+
+选中密级类型: 'xpath==//*[@title="内部"]'
+密级对话框确定按钮: 'xpath==//*[@data-reactid=".8.1.$dialog.0.3.$submit.1:$/=10"]'

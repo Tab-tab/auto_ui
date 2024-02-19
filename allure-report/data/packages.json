@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "test_001_login",
+      "children" : [ {
+        "name" : "test_001_login[sigeradmin-Sigerdata@2019]",
+        "uid" : "3bb3ae865f90cac2",
+        "parentUid" : "2dd43dc5b79d8af1316fdaf03a6ea893",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637403996052,
+          "stop" : 1637403997345,
+          "duration" : 1293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Sigerdata@2019'", "'sigeradmin'" ]
+      } ],
+      "uid" : "2dd43dc5b79d8af1316fdaf03a6ea893"
+    }, {
+      "name" : "test_002_company",
+      "children" : [ {
+        "name" : "test_002_add_company[sigeradmin-Sigerdata@2019-2021_test-自动化企业_test-auto_test-auto_test企业地址-auto_user-15012341234-123@123.com]",
+        "uid" : "c89ea287de17982d",
+        "parentUid" : "ff1609ccbe29ff5d74838a000e0bf858",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637404001297,
+          "stop" : 1637404014344,
+          "duration" : 13047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'auto_test企业地址'", "'2021_test'", "'自动化企业_test'", "'auto_user'", "'123@123.com'", "'Sigerdata@2019'", "'auto_test'", "'15012341234'", "'sigeradmin'" ]
+      } ],
+      "uid" : "ff1609ccbe29ff5d74838a000e0bf858"
+    } ],
+    "uid" : "9fa14e2db0d1ecbd3a4c5f0825d2ac34"
+  } ]
+}

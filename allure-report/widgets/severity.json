@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3bb3ae865f90cac2",
+  "name" : "test_001_login[sigeradmin-Sigerdata@2019]",
+  "time" : {
+    "start" : 1637403996052,
+    "stop" : 1637403997345,
+    "duration" : 1293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89ea287de17982d",
+  "name" : "test_002_add_company[sigeradmin-Sigerdata@2019-2021_test-自动化企业_test-auto_test-auto_test企业地址-auto_user-15012341234-123@123.com]",
+  "time" : {
+    "start" : 1637404001297,
+    "stop" : 1637404014344,
+    "duration" : 13047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

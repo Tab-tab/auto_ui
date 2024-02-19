@@ -1,0 +1,6 @@
+URL:
+# 10环境
+#  url_task_page: "/p2m/p2m-web/departmentPlanPages/department_plan_detail.html?planId=202204171538470008232a418ca8057f4d0c8d6b&currentType=yearMount&name=Auto计划&jurisdiction=true"
+
+# 9环境
+  url_task_page: "/p2m/p2m-web/departmentPlanPages/department_plan_detail.html?planId=20220418151632000578d0a529888f4c45e98905&currentType=yearMount&name=Auto计划&jurisdiction=true"

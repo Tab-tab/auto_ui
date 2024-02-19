@@ -1,0 +1,122 @@
+{
+  "uid" : "c89ea287de17982d",
+  "name" : "test_002_add_company[sigeradmin-Sigerdata@2019-2021_test-自动化企业_test-auto_test-auto_test企业地址-auto_user-15012341234-123@123.com]",
+  "fullName" : "TestCase.test_002_company.TestCompany#test_002_add_company",
+  "historyId" : "54c57f3c861da4b5049fe7f90c96c657",
+  "time" : {
+    "start" : 1637404001297,
+    "stop" : 1637404014344,
+    "duration" : 13047
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCompany",
+    "time" : {
+      "start" : 1637403999451,
+      "stop" : 1637404001296,
+      "duration" : 1845
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCompany::0",
+    "time" : {
+      "start" : 1637404014347,
+      "stop" : 1637404016434,
+      "duration" : 2087
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试正确添加企业"
+  }, {
+    "name" : "feature",
+    "value" : "系统基础配置模块"
+  }, {
+    "name" : "tag",
+    "value" : "L1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_002_company"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompany"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3DIA2N1"
+  }, {
+    "name" : "thread",
+    "value" : "30360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_002_company"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'auto_test企业地址'"
+  }, {
+    "name" : "charter",
+    "value" : "'2021_test'"
+  }, {
+    "name" : "chinese_name",
+    "value" : "'自动化企业_test'"
+  }, {
+    "name" : "contact",
+    "value" : "'auto_user'"
+  }, {
+    "name" : "email",
+    "value" : "'123@123.com'"
+  }, {
+    "name" : "password",
+    "value" : "'Sigerdata@2019'"
+  }, {
+    "name" : "pingyin_name",
+    "value" : "'auto_test'"
+  }, {
+    "name" : "telephone",
+    "value" : "'15012341234'"
+  }, {
+    "name" : "username",
+    "value" : "'sigeradmin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "L1" ]
+  },
+  "source" : "c89ea287de17982d.json",
+  "parameterValues" : [ "'auto_test企业地址'", "'2021_test'", "'自动化企业_test'", "'auto_user'", "'123@123.com'", "'Sigerdata@2019'", "'auto_test'", "'15012341234'", "'sigeradmin'" ]
+}

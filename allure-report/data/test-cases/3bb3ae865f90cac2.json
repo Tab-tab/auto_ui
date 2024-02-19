@@ -1,0 +1,101 @@
+{
+  "uid" : "3bb3ae865f90cac2",
+  "name" : "test_001_login[sigeradmin-Sigerdata@2019]",
+  "fullName" : "TestCase.test_001_login.TestLogin#test_001_login",
+  "historyId" : "87696f81174588a4745b1319d8ece89b",
+  "time" : {
+    "start" : 1637403996052,
+    "stop" : 1637403997345,
+    "duration" : 1293
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1637403993927,
+      "stop" : 1637403996052,
+      "duration" : 2125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1637403997345,
+      "stop" : 1637403999449,
+      "duration" : 2104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "用户登录成功"
+  }, {
+    "name" : "tag",
+    "value" : "L1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3DIA2N1"
+  }, {
+    "name" : "thread",
+    "value" : "30360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_001_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'Sigerdata@2019'"
+  }, {
+    "name" : "username",
+    "value" : "'sigeradmin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "L1" ]
+  },
+  "source" : "3bb3ae865f90cac2.json",
+  "parameterValues" : [ "'Sigerdata@2019'", "'sigeradmin'" ]
+}
